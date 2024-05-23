@@ -1,0 +1,20 @@
+1st command:
+target remote localhost:3333
+
+
+2nd command:
+monitor reset init
+
+
+3rd command :
+flash write_image erase final.elf
+
+4th command:
+reset halt
+
+5th command :
+resume
+
+6 - halt 
+7- reset
+- 
